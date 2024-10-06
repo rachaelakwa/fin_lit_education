@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet" type="text/css"/>
+  
+</head>
+
+
+<body>
+
+  <div class="container">
+    <!-- Navbar -->
+    <div class="row ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#aboutus">Financial Literacy Inc</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="home">Jeopardy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="about">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Topics
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="li"> Market Liquidity</a></li>
+                    <li><a class="dropdown-item" href="assetm">Asset Management</a></li>
+                    <li><a class="dropdown-item" href="cap_access">Capital Access</a></li>
+                  </ul>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    
+    <!-- FinLit Carousel -->
+    <div class= 'row'>
+      <div class="col">
+        <h1 class="center" id = 'welcome'>Welcome to FinLit</h1>
+        
+      </div>
+    </div>
+    
+    <!-- About us -->
+    <div class = 'row'>
+      <div id = 'aboutus'>
+        <h3 class = 'center'>About Us</h3>
+        <p class = 'center mission' id = "mission" >
+          FinLit was created recognizing the gap in knowledge on financial literacy. We are on a mission to bridge this gap through education and gamification. To make learning about finance engaging and accessible, FinLit incorporates innovative methods, including a Jeopardy game tailored specifically to financial education. This interactive game format transforms complex financial concepts into an enjoyable and competitive activity, allowing users to test their knowledge, learn new information, and reinforce their understanding in a dynamic way. By leveraging the familiar and fun structure of Jeopardy, FinLit ensures that users are not only informed but also entertained, making the learning process more effective and memorable. </p>
+      </div>
+    </div>
+    
+    <!-- Topic Cards -->
+    <div class = 'row'>
+      <div class= 'center'>
+        <div class="row justify-content-center">
+            <h3 id="topics">Topics</h3>
+            <div class="card crd" style="width: 18rem;">
+              <img src="https://st5.depositphotos.com/4177785/64611/v/380/depositphotos_646114750-stock-illustration-financial-services-blue-gradient-concept.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MARKET LIQUIDITY</h5>
+                <p class="card-text"> Contrary to popular belief, liquidity is more than the ability to turn in cash.</p>
+                <a href="li" class="btn btn-primary button">Learn More</a>
+              </div>
+            </div>
+    
+            <div class="card crd" style="width: 18rem;">
+              <img src="static/css/finance-team-concept-icon.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ASSET MANAGEMENT</h5>
+                <p class="card-text">Detailed content including the goals and different types of asset managers</p>
+                <a href="assetm" class="btn btn-primary button">Learn More</a>
+              </div>
+            </div>
+            <div class="card crd" style="width: 18rem;">
+              <img src="static/css/pic1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CAPITAL ACCESS</h5>
+                <p class="card-text">Explaining everyday finance terms such as 'credit' and how they impact your financial life.</p>
+                <a href="cap_access" class="btn btn-primary button">Learn More</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <br/>
+      <!-- this is the footer -->
+    <footer class = 'bot row'>
+      <div class = 'col-md-3'>
+        <p>
+          
+        </p>
+      </div>
+      <div class = 'col-md-3'>
+        <ul style="list-style: none;">
+          <li>Connect with Us</li>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-solid fa-envelope"></i>
+          <a>finlitedu@gmail.com</a>
+        </ul>
+      </div>
+      <div class = 'col-md-3'>
+        <!-- <img class = "michael" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDVyYmhqaWh3bDl2ZDIxOThtZXZzdDVkcmVzM2lmODg1Zm1xaDRsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ai14U5xDJKUtpEobcD/giphy.gif" alt="michael" height="250" class = "center"> -->
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+

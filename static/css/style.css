@@ -1,0 +1,209 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-weight: 10000;
+    font-style: normal;
+    background-color: #ecf0f1;
+    width: 100vw;
+  }
+  .crd {
+    background:#adceff
+  }
+  
+  .button {
+    color: white;
+    background-color:#2c3e50  ;
+    
+  }
+  
+  #lesson {
+    text-align: left;
+    
+  }
+  
+  #aboutus {
+    
+  }
+  /* .carousel {
+     width:1000px;
+     height:360px;
+   } */
+  
+  .a {
+    text-decoration: none;
+  }
+  
+  /* ul {
+    list-style-type: none;
+  } */
+  
+  footer {
+    display: flex;
+    background-color: #0b4d8e;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 0;
+    color: whitesmoke;
+      /* position: absolute; 
+     bottom: 0;
+      width: 100%;
+      height: 50px; */
+   
+  }
+  
+  .bg-body-tertiary {
+    background: #34495e;
+  }
+  /* .container {
+    padding: 0;
+    margin: 0;
+  } */
+  
+  #welcome {
+    background-color:#454f8a;
+    color:white;
+    padding: 100px 0;
+    text-align:center;
+    background: url(concept-financial-performance.jpeg);
+    background-size:auto;
+    background-position: auto;
+    position: relative;
+    height: 500px;
+    font-size:53px;
+  }
+  
+  
+  /* bootstrap css  */
+  
+  i {
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black
+  }
+  
+  #assm {
+    background-color:#454f8a;
+    color:white;
+    padding: 100px 0;
+    text-align:center;
+    background: url(pic2.png);
+    background-size:cover;
+    background-position: auto;
+    position: relative;
+    height: 500px;
+  }
+  
+  #capa {
+    background-color:#454f8a;
+    color:white;
+    padding: 100px 0;
+    text-align:center;
+    background: url(pic3.png);
+    background-size:cover;
+    background-position: auto;
+    position: relative;
+    height: 500px;
+  }
+  
+  #liq {
+    background-color:#454f8a;
+    color:white;
+    padding: 100px 0;
+    text-align:center;
+    background: url(pic4.png);
+    background-size:cover;
+    background-position: auto;
+    position: relative;
+    height: 500px;
+  }
+  
+  /* .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  
+  table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  th, td {
+      border: 4px solid black;
+      text-align: center;
+      padding: 20px;
+    }
+  th {
+      background-color: #0b4d8e;
+      color: white;
+      font-style: fantasy;
+    }
+  td {
+    background-color: #ecf0f1;
+    }
+  a { 
+    color: black;
+        text-decoration: none;
+    }
+  a:hover{
+        text-decoration: underline;
+    }
+  body {
+    height: 100%;
+    margin: 0;
+  }
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar, .footer {
+    flex-shrink: 0;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .center {
+    text-align: center;
+    
+  }
+  .bot {
+    flex-shrink: 0;
+  }
+  .michael {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+  }
+  
+  h3{
+    margin-top:50px;
+    margin-bottom:20px;
+    text-align:center;
+    font-size:50px;
+  }
+  .mission{
+  font-size:20px;
+  padding-bottom:40px;
+  padding-top:10px;
+    
+  }
+  

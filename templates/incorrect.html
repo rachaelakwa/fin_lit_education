@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Incorrect</title>
+</head>
+<body>
+    <h1>Incorrect!</h1>
+    <p>Sorry, you answered incorrectly and lost {{ points }} points. The correct answer was {{ correct_answer }}</p>
+    <p>Your new score is: {{ score }}</p>
+    <a href="{{ url_for('home') }}">Back to Game</a>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ category }} - {{ points }}</title>
+</head>
+<body>
+    <h1>{{ category }} - {{ points }}</h1>
+    <p>{{ question }}</p>
+    <form action="{{ url_for('answer') }}" method="post">
+        <input type="hidden" name="category" value="{{ category }}">
+        <input type="hidden" name="points" value="{{ points }}">
+        <input type="text" name="answer">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
